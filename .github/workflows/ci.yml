@@ -34,3 +34,8 @@ jobs:
         run: ruff check atr_eval tests scripts
       - name: Types
         run: mypy atr_eval --ignore-missing-imports
+      - name: Shared results table is current
+        # The pooled table is rebuilt from results/shared/*.json; a pull request that adds a share must rebuild it too.
+        run: |
+          atr-eval dataset build results/shared --out results/dataset.json > results/TABLE.md
+          git diff --exit-code -- results/
