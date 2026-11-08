@@ -1,5 +1,8 @@
 blank_issues_enabled: true
 contact_links:
+  - name: Questions and ideas
+    url: https://github.com/Agent-Threat-Rule/atr-eval/discussions
+    about: Ask how to test your agent, or float an idea before writing it up.
   - name: Security problem in ATR Eval itself
     url: https://github.com/Agent-Threat-Rule/atr-eval/security/advisories/new
     about: Report it privately, as SECURITY.md describes.
