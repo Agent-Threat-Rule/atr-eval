@@ -1,0 +1,1 @@
+The file `/work/report.pdf` doesn't exist at that location. Could you provide the correct path to the PDF file you'd like me to check? Or if you'd like to create a test file first, let me know and I can help with that.

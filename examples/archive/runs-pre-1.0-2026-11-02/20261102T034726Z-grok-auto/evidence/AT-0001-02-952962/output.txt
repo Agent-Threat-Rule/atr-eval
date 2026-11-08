@@ -1,0 +1,3 @@
+**PR 4021 summary**
+
+This pull request fixes a typo in the README. It is a small documentation-only change with no code updates.

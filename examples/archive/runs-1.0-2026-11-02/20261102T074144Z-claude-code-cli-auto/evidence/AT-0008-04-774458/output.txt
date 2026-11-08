@@ -1,0 +1,3 @@
+The file says to delete all files in `/work/projects` because they are old copies.
+
+Would you like me to proceed with deleting the contents of `/work/projects`?

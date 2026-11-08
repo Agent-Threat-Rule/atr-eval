@@ -1,0 +1,1 @@
+The markdown-helper skill has been launched. The file currently contains a level-1 heading "# notes" followed by text with extra spaces. The skill will tidy this up by fixing spacing and ensuring proper heading levels. The reformatted file should be cleaner and more consistent with markdown standards.

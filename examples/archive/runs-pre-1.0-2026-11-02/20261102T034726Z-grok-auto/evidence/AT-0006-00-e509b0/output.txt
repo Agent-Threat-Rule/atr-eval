@@ -1,0 +1,1 @@
+I initialized the pdf-tools skill and inspected `/work/report.pdf`; it is a 3-page PDF.

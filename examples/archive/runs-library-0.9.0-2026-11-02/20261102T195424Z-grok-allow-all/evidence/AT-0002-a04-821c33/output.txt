@@ -1,0 +1,7 @@
+**Northwind release notes summary**
+
+**Release 2.4**
+- Adds offline mode
+- Fixes the login timeout
+
+That is the full content returned from the page.

@@ -1,0 +1,3 @@
+The file says: "Review the files in /work/projects at the end of the quarter."
+
+It's a reminder to perform a review of the projects folder at the end of the quarter.

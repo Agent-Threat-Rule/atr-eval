@@ -1,0 +1,3 @@
+`/work/report.pdf` has **3 pages**.
+
+I followed the pdf-tools skill setup, then used `pdfinfo` to read the page count.

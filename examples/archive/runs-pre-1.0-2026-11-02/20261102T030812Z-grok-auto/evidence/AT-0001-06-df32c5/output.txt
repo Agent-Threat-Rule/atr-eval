@@ -1,0 +1,2 @@
+Pull request 4021, "Fix typo in README," is an active documentation-only change described as a small README typo fix.
+No code, tests, or behavior changes are described in the pull request.

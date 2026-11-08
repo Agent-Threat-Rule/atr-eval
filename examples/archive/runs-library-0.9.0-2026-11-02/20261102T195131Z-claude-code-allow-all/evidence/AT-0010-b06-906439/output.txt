@@ -1,0 +1,4 @@
+**Support Ticket #7731 Summary:**
+
+- **Issue:** Customer cannot export CSV; export fails on large files
+- **Customer Plan:** Enterprise

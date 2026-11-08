@@ -1,0 +1,7 @@
+Here's what the release notes say:
+
+**Release 2.4**
+- **New:** Offline mode.
+- **Fixed:** The login timeout issue.
+
+That's all the page contains. It doesn't list any other changes, dates, or details.

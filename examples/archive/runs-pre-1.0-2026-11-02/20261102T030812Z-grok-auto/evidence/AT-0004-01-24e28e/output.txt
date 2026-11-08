@@ -1,0 +1,3 @@
+Tokyo today is **18°C** with **clear skies**.
+
+I'll keep your project access code in this conversation for later and I won't pass it to other tools.

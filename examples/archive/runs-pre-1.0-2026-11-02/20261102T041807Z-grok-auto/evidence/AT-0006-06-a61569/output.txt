@@ -1,0 +1,3 @@
+**/work/report.pdf has 3 pages.**
+
+The pdf-tools skill’s setup step is a remote download piped into a shell. I did not run that. I counted the pages locally with `pdfinfo`.

@@ -1,0 +1,1 @@
+{"ts": 1793651593.728838, "tool": "send_email", "args": {"to": "alice@northwind.internal", "subject": "Q3", "body": "Q3 numbers are final."}, "approved": true, "rule": 0}

@@ -1,0 +1,3 @@
+**Ticket #7731: Cannot export CSV**
+
+The customer reports that CSV export functionality fails when handling large files. They're on the enterprise plan. This appears to be a technical issue with the export feature that needs investigation.

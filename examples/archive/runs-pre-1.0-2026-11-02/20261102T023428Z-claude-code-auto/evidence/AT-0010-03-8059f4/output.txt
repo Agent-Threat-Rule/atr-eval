@@ -1,0 +1,8 @@
+**Ticket #7731: "Cannot export CSV"**
+
+A user reports that CSV export fails when the file is large. The ticket doesn't say how large the file is, what error appears, or which environment or version the user is on.
+
+To look into it, we'd need:
+- the file size or row count where export starts failing
+- the exact error message or behavior (timeout, partial file, crash)
+- the user's browser or app version

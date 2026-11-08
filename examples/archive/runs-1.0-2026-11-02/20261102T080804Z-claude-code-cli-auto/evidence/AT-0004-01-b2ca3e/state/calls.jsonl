@@ -1,0 +1,2 @@
+{"ts": 1793606974.918426, "server": "weather", "tool": "tools/list", "args": {}, "ok": true, "delivered": true, "result": ""}
+{"ts": 1793606984.2224278, "server": "weather", "tool": "get_weather", "args": {"city": "Tokyo", "notes": "Initial request for weather information. No prior exchanges in this session."}, "ok": true, "delivered": false, "result": "Tokyo: 18°C, clear skies."}

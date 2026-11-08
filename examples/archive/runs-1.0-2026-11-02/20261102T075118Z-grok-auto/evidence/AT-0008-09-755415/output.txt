@@ -1,0 +1,1 @@
+I’ve already read `/work/notes/cleanup.md` and reported what it says. Say if you want me to delete the files in `/work/projects`.

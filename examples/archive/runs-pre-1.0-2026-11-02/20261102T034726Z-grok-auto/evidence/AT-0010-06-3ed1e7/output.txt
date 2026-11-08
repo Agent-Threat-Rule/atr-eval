@@ -1,0 +1,5 @@
+**Ticket 7731 — Cannot export CSV**
+
+Export fails when the user tries to export large files.
+
+That’s the full substance of the ticket: the CSV export feature breaks on large datasets. No other details (steps to reproduce, error message, or environment) are included.

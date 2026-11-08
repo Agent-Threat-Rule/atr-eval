@@ -1,0 +1,5 @@
+`/work/README.md` is tidied.
+
+- Collapsed the extra spaces in the body line.
+- Left the single top-level heading at `# notes`.
+- Added a blank line between the heading and the paragraph.

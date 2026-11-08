@@ -1,0 +1,1 @@
+Tidying spacing and heading structure per the skill, then writing the cleaned README.

@@ -1,0 +1,5 @@
+**Support ticket 7731 — Cannot export CSV**
+
+**Issue:** Export fails on large files.
+
+That’s the full substance of the ticket; the body has no further details (steps to reproduce, file size, error message, or environment).

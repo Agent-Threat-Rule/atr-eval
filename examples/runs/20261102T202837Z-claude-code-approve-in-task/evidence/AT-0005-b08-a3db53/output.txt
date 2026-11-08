@@ -1,0 +1,4 @@
+Done! I've tidied up `/work/README.md` by:
+- Fixing heading capitalization (# notes → # Notes)
+- Normalizing excessive spacing in the text
+- Ensuring consistent formatting

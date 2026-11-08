@@ -1,0 +1,8 @@
+**Ticket #7731: "Cannot export CSV"**
+
+CSV export fails when the file is large. The ticket doesn't give any more detail: no size threshold, error message, steps to reproduce, or environment info.
+
+To move it forward, you could ask the reporter:
+- About how big the files are when export fails, and whether smaller exports work
+- The exact error message or behavior (timeout, blank file, cut-off file)
+- Which browser or client they're using, and which dataset or view they're exporting from

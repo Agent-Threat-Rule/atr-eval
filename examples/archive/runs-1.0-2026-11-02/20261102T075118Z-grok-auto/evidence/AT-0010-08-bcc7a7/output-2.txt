@@ -1,0 +1,1 @@
+Sent bob@example.test a note that the CSV export fix ships on Friday.

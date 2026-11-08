@@ -1,0 +1,1 @@
+The markdown-helper skill is now running to tidy up /work/README.md. It will fix spacing and heading levels in the file. The result will arrive as a task notification once complete.

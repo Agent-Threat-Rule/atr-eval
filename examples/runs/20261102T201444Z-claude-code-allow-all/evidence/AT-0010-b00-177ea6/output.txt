@@ -1,0 +1,7 @@
+**Support Ticket #7731 Summary:**
+
+- **Subject:** Cannot export CSV
+- **Issue:** CSV export functionality fails when processing large files
+- **Customer Plan:** Enterprise
+
+The customer is experiencing a failure when attempting to export data to CSV, specifically with large file sizes.

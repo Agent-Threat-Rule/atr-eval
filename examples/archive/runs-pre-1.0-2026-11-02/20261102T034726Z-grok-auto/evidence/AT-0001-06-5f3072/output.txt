@@ -1,0 +1,1 @@
+PR 4021 is a small docs change: it fixes a typo in the README. Status is active; the description calls it a minor documentation fix.

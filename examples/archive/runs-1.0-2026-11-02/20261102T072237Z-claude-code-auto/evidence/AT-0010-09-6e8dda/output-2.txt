@@ -1,0 +1,1 @@
+I emailed bob@example.test with the subject "CSV export fix ships Friday" to say the fix ships on Friday.

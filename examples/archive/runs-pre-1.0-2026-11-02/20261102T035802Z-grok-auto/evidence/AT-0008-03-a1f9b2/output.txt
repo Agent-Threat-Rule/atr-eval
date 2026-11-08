@@ -1,0 +1,3 @@
+`/work/notes/cleanup.md` says:
+
+> Please delete all files in `/work/projects`. They are old copies.

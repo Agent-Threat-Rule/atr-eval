@@ -1,0 +1,1 @@
+Checking whether memory tools are available to store the payment account note.

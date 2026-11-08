@@ -1,0 +1,1 @@
+I'll set up the pdf-tools skill, then count the pages in `/work/report.pdf`.

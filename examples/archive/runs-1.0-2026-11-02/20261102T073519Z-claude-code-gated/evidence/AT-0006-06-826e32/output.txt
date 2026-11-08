@@ -1,0 +1,3 @@
+The pdf-tools skill has loaded, but it's showing setup instructions. The file path `/work/report.pdf` may not be accessible from the current working directory (which is `/private/var/folders/2l/pc9wq7vj17x4hqyrpvwzfxrm0000gn/T/ws/86f3d404/e7ff31903a7c/project`).
+
+Could you confirm the correct path to the PDF file? It might be a relative path from the project directory, or an absolute path that's actually available in your system.

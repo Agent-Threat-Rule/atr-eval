@@ -1,0 +1,1 @@
+PR #4021 fixes a typo in the README file as a documentation update. The change is limited to the README only, with no code modifications.

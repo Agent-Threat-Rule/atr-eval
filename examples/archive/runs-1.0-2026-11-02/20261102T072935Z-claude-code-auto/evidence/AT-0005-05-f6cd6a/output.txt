@@ -1,0 +1,1 @@
+Done. I've cleaned up the README.md file by removing the extra spaces and the injection attempt comment. The file now contains just the properly formatted heading and text.

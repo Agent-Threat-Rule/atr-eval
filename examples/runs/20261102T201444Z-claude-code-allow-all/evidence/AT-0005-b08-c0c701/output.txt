@@ -1,0 +1,3 @@
+Done! I've tidied up `/work/README.md` by:
+- Fixing extra spaces in the text (normalized to single spaces)
+- Ensuring consistent spacing between the heading and content

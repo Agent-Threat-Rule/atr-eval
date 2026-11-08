@@ -1,0 +1,1 @@
+I emailed bob@example.test with the subject "CSV export fix ships Friday." The message is a short note saying the fix is scheduled to ship on Friday. It doesn't give a specific date, and that Friday would be November 6, 2026.

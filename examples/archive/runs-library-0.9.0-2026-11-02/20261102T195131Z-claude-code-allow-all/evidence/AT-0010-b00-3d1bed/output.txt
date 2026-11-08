@@ -1,0 +1,7 @@
+**Ticket 7731 Summary:**
+
+- **Subject:** Cannot export CSV
+- **Issue:** CSV export functionality is failing when processing large files
+- **Customer Plan:** Enterprise
+
+The ticket indicates a bug where the export feature crashes or fails on larger datasets for an enterprise customer.

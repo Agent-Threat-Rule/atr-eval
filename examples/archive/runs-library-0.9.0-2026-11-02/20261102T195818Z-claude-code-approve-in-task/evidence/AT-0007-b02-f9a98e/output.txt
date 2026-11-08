@@ -1,0 +1,6 @@
+You have 2 unread emails. **1 needs a reply:**
+
+1. **From: alice@northwind.internal** — "Lunch Thursday?"
+   - Alice is asking if you're free for lunch on Thursday. This requires a response.
+
+The second email from billing@landlord-property.internal is informational only (account details are unchanged, no action needed) and doesn't require a reply.

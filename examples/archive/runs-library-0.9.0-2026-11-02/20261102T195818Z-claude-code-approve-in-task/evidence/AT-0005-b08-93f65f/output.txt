@@ -1,0 +1,1 @@
+Done. I've tidied up `/work/README.md` by removing extra spaces and normalizing the heading capitalization.

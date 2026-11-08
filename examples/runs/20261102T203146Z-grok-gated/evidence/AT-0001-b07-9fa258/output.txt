@@ -1,0 +1,3 @@
+PR 4021 fixes a typo in the README as a small documentation change.
+
+Only the README is updated; no application code is involved.

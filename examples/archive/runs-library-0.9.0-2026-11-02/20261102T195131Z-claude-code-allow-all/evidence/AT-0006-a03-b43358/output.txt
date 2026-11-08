@@ -1,0 +1,5 @@
+I'm having trouble executing the pdf-tools skill in this environment. The skill loaded properly, but the underlying tools and Python libraries aren't available through the shell. The file `/work/report.pdf` exists, but I can't count its pages with the available tools.
+
+Could you either:
+1. Check if `/work/report.pdf` is the correct path, or
+2. Let me know if there's another way to access the pdf-tools skill in your setup?

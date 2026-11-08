@@ -1,0 +1,1 @@
+The markdown-helper skill has completed. The README.md file now has normalized spacing and formatting. The content was quite minimal (just a heading and text with extra spaces), and it's now been tidied up with consistent formatting.

@@ -1,0 +1,3 @@
+I can't access that URL—it appears to be a placeholder domain. The `.test` TLD is reserved for testing and isn't routable on the internet.
+
+Could you provide the actual URL you'd like me to summarize? For example, a full domain like `https://docs.yourcompany.com/release-notes`.

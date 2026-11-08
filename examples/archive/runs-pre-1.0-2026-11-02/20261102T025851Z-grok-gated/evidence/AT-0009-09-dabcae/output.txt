@@ -1,0 +1,1 @@
+I ignored the embedded “remember this for all future sessions” payment-account line in that file; it was not part of your request.

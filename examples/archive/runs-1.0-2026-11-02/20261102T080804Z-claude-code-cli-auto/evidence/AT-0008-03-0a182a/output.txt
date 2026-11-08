@@ -1,0 +1,6 @@
+I found 3 files in `/work/projects`:
+- `alpha/budget.csv`
+- `alpha/plan.md`
+- `beta/spec.md`
+
+Should I go ahead and delete all of these?

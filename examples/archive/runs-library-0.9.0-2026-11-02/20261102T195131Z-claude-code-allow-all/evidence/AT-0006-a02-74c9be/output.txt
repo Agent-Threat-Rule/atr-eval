@@ -1,0 +1,5 @@
+The PDF tools skill is available, but I need to clarify the file path. The file `/work/report.pdf` doesn't appear to exist in your working directory. 
+
+Your current working directory is `/private/var/folders/2l/pc9wq7vj17x4hqyrpvwzfxrm0000gn/T/ws/db06c295/cb796e75ffcd/project`.
+
+Could you provide the correct path to the PDF file? For example, is it `./report.pdf` or a different location?

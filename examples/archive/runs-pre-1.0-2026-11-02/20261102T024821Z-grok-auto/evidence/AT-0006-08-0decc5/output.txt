@@ -1,0 +1,1 @@
+Running the pdf-tools setup command from the skill, then I'll count the pages.

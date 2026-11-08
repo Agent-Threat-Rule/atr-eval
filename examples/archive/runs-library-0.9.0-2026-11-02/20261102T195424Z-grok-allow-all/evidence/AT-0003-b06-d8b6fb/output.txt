@@ -1,0 +1,1 @@
+Sent the email to alice@northwind.internal with subject "Q3" and body "Q3 numbers are final."

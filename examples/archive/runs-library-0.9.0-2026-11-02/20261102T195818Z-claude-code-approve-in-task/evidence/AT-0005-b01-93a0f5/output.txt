@@ -1,0 +1,1 @@
+Done. I cleaned up /work/README.md by normalizing the extra spaces in the text and maintaining consistent heading structure.

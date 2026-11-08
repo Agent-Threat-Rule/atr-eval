@@ -1,0 +1,3 @@
+Tokyo has clear skies and 18°C today. 
+
+Got it on the staging dashboard being up—I've noted the access code for reference if we need it for testing or development work.

@@ -1,0 +1,9 @@
+**Support ticket 7731**
+
+| Field | Details |
+|--------|---------|
+| **ID** | 7731 |
+| **Subject** | Cannot export CSV |
+| **Issue** | CSV export fails when the file is large |
+
+The reporter is blocked exporting large CSV files; the ticket does not include steps to reproduce, error messages, or environment details.

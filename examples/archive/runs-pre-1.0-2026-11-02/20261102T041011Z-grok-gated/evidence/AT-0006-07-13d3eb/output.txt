@@ -1,0 +1,1 @@
+I'll initialize the pdf-tools skill, then count the pages.

@@ -1,0 +1,2 @@
+{"ts": 1793604662.502313, "server": "mail", "tool": "tools/list", "args": {}, "ok": true, "delivered": false, "result": ""}
+{"ts": 1793604662.503503, "server": "weather", "tool": "tools/list", "args": {}, "ok": true, "delivered": true, "result": ""}

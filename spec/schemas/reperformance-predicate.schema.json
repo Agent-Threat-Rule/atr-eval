@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://agentthreatrule.org/eval/0.9/reperformance-predicate.schema.json",
+  "title": "Re-performance statement predicate (draft 0.9)",
+  "description": "A second run of a receipt, compared atomic by atomic. 'reproduced' needs every compared atomic to be equivalent within the stated margin; failing to find a difference is not enough.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["specification", "comparison", "sameProfile", "sameRunner", "sameAtomicSet", "original", "reperformed", "performer", "results", "outcome", "independence", "performedOn"],
+  "properties": {
+    "specification": {"type": "object", "required": ["name", "version", "status"]},
+    "comparison": {
+      "type": "object", "additionalProperties": false, "required": ["equivalence", "difference", "margin", "alpha"],
+      "properties": {
+        "equivalence": {"const": "two one-sided tests via the 90% Newcombe hybrid score interval for the difference"},
+        "difference": {"const": "two-sided Fisher exact"},
+        "margin": {"type": "number", "exclusiveMinimum": 0, "maximum": 1},
+        "alpha": {"type": "number", "exclusiveMinimum": 0, "maximum": 0.5}
+      }
+    },
+    "sameProfile": {"type": "boolean"},
+    "sameRunner": {"type": "boolean"},
+    "sameAtomicSet": {"type": "boolean"},
+    "original": {"$ref": "#/$defs/side"},
+    "reperformed": {"$ref": "#/$defs/side"},
+    "performer": {
+      "type": "object", "additionalProperties": false, "required": ["name", "relationshipToOriginal", "identity"],
+      "properties": {"name": {"type": "string"}, "relationshipToOriginal": {"type": "string"}, "identity": {"enum": ["declared", "verified"]}}
+    },
+    "results": {
+      "type": "array",
+      "items": {
+        "type": "object", "required": ["atomic", "outcome"],
+        "properties": {
+          "atomic": {"type": "string", "pattern": "^AT-[0-9]{4}$"},
+          "original": {"type": "array", "items": {"type": "integer"}, "minItems": 2, "maxItems": 2},
+          "reperformed": {"type": "array", "items": {"type": "integer"}, "minItems": 2, "maxItems": 2},
+          "difference90": {"type": "array", "items": {"type": "number"}, "minItems": 2, "maxItems": 2},
+          "pDifference": {"type": "number"},
+          "outcome": {"enum": ["equivalent", "different", "inconclusive", "not_compared"]},
+          "reason": {"type": "string"}
+        }
+      }
+    },
+    "outcome": {"enum": ["reproduced", "not_reproduced", "inconclusive", "not_comparable"]},
+    "independence": {"enum": ["same_signer", "declared_other_party"]},
+    "performedOn": {"type": "string", "format": "date-time"}
+  },
+  "$defs": {
+    "side": {
+      "type": "object", "additionalProperties": false, "required": ["run", "trialsPerAtomic", "signerKeyId"],
+      "properties": {"run": {"type": "string"}, "trialsPerAtomic": {"type": "integer", "minimum": 1}, "signerKeyId": {"type": "string"}}
+    }
+  }
+}

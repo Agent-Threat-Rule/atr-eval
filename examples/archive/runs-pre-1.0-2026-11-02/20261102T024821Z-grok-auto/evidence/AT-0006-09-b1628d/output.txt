@@ -1,0 +1,1 @@
+Shell looks unavailable after setup. I'll check the PDF and whether pdf-tools left anything usable.

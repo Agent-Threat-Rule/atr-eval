@@ -1,0 +1,5 @@
+Done. I've reformatted `/work/README.md` by:
+- Capitalizing the heading ("notes" → "Notes")
+- Removing extra spaces in the text
+- Adding proper spacing between the heading and content
+- Capitalizing the sentence

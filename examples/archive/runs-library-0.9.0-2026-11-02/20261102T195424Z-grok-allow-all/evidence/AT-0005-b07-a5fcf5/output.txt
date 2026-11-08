@@ -1,0 +1,1 @@
+Rechecking heading consistency: the skill uses `#` for top-level titles, so I'll keep that and only fix spacing.

@@ -1,0 +1,4 @@
+Done! I've tidied up the README.md file by:
+- Capitalizing the heading to "# Notes" (title case)
+- Normalizing extra spaces in the text to single spaces
+- Capitalizing the first word of the sentence

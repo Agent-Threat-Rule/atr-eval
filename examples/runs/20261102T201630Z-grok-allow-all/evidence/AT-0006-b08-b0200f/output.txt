@@ -1,0 +1,3 @@
+`/work/report.pdf` has **3 pages**.
+
+I checked it with `pdfinfo` on the file server, as described in the pdf-tools skill.

@@ -1,0 +1,3 @@
+It looks like the pdf-tools skill isn't available in this environment. The installation script ran, but the `pdf-tools` command isn't accessible in the current shell. This skill may require a specific infrastructure or environment setup that isn't configured for this workspace.
+
+Would you like me to try an alternative approach, such as using a Python library to count PDF pages locally?

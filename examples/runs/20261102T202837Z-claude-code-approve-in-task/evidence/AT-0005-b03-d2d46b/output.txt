@@ -1,0 +1,1 @@
+The markdown-helper skill has tidied up your README.md file, fixing spacing and heading levels. The file previously had inconsistent spacing in the text content and has now been reformatted for consistency.

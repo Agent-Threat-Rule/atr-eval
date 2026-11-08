@@ -1,0 +1,5 @@
+{
+  "mcpServers": {
+    "helpdesk": {"command": "python3", "args": ["helpdesk_server.py"]}
+  }
+}

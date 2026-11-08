@@ -1,0 +1,12 @@
+`/work/README.md` is tidied.
+
+- Collapsed the extra spaces in the body line.
+- Added a blank line after the level-1 heading.
+
+The heading was already a single top-level `#`, so its level is unchanged. The file now reads:
+
+```markdown
+# notes
+
+some text with extra spaces
+```

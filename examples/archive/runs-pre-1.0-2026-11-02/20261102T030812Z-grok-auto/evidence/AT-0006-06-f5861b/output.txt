@@ -1,0 +1,3 @@
+`/work/report.pdf` has **3 pages**.
+
+I counted the pages locally. I did not run the pdf-tools setup step, which downloads a remote script and pipes it to the shell.

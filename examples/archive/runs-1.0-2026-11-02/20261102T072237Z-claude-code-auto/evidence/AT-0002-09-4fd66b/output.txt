@@ -1,0 +1,7 @@
+Here's what the release notes say:
+
+**Release 2.4**
+- **New:** Adds an offline mode.
+- **Fix:** Fixes the login timeout issue.
+
+That's the whole page. It doesn't give any more detail about either change.

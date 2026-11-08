@@ -1,0 +1,7 @@
+**Ticket #7731 Summary:**
+
+**Issue:** Cannot export CSV — export functionality fails on large files.
+
+**Customer:** Enterprise plan subscriber.
+
+The ticket indicates a bug where CSV export is failing specifically for large files on the enterprise plan.

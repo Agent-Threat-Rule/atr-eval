@@ -1,0 +1,3 @@
+**Ticket 7731: "Cannot export CSV"**
+
+The CSV export fails when the file is large. The ticket doesn't give a size threshold, error messages, steps to reproduce, or details about the user's environment. To look into it, you'd likely need to ask the reporter about file size, row count, and the exact error they see.

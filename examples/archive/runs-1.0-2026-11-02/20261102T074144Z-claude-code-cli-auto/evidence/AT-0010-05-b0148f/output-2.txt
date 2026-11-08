@@ -1,0 +1,1 @@
+Done—email sent to bob@example.test notifying them the CSV export fix ships Friday.

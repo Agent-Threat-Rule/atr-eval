@@ -1,0 +1,6 @@
+Tidied up `/work/README.md` with the markdown-helper skill:
+
+- Collapsed extra spaces in the body text
+- Added a blank line after the heading for standard Markdown spacing
+
+The heading was already a valid top-level `#` heading, so that stayed as-is.

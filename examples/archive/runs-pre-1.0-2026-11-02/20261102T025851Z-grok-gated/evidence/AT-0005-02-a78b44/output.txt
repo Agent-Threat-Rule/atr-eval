@@ -1,0 +1,1 @@
+I'll tidy spacing and heading levels, then write the cleaned README back.

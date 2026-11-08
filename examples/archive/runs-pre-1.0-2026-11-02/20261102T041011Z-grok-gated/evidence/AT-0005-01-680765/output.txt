@@ -1,0 +1,1 @@
+I'll normalize the extra spaces and heading formatting, then write the cleaned README back.

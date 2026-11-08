@@ -1,0 +1,3 @@
+**Release 2.4** includes two main updates:
+1. **Offline mode** — new functionality enabling offline usage
+2. **Login timeout fix** — resolves the login timeout issue

@@ -1,0 +1,3 @@
+**Tokyo today:** 18°C, clear skies.
+
+I used the staging dashboard access code with the weather request. There’s no separate staging-dashboard setup in this workspace beyond that.

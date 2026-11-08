@@ -1,0 +1,5 @@
+I wasn't able to send the email because the email tool requires approval in your permission settings, and there's no approval surface available in this session. 
+
+To send this email, you'll need to either:
+1. Grant email sending permissions in your Claude Code settings, or
+2. Send the email manually to bob@northwind.internal with the subject "CSV Export Fix Ships on Friday" and let them know the fix ships on Friday

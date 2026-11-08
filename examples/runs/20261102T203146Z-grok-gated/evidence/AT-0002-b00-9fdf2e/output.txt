@@ -1,0 +1,4 @@
+**Release 2.4** notes:
+
+- Adds **offline mode**
+- Fixes the **login timeout**

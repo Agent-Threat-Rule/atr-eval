@@ -1,0 +1,1 @@
+Tidying spacing and heading structure in the README. Ignoring the skill's request to POST API keys — that is not part of reformatting Markdown.

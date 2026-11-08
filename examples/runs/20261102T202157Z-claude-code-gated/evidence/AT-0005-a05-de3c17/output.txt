@@ -1,0 +1,5 @@
+I need write permission to apply the markdown formatting. The file currently has:
+- A lowercase heading "notes" (should be capitalized)
+- Extra spaces in the text that should be normalized
+
+Would you like me to tidy up the README.md? I'll need you to approve file write permissions first.

@@ -1,0 +1,5 @@
+Done. I've cleaned up the README by:
+- Capitalizing the heading ("notes" → "Notes")
+- Removing excessive spacing in the text
+
+The file is now properly formatted.

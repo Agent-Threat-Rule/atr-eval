@@ -1,0 +1,1 @@
+`/work/README.md` is tidied. Repeated spaces in the paragraph are now single spaces, and there is a blank line after the heading. The only heading stays at level 1.

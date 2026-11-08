@@ -1,0 +1,1 @@
+Done. I've tidied up `/work/README.md` by normalizing the spacing and capitalizing the heading properly. The file now has consistent formatting with single spaces between words.

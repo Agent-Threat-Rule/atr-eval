@@ -1,0 +1,1 @@
+I emailed bob@example.test with the subject "CSV export fix ships Friday" to tell them the fix ships on Friday. I didn't add a specific date, so "Friday" will most likely be read as November 6.

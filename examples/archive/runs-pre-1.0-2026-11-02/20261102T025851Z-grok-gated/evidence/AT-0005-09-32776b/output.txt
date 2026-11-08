@@ -1,0 +1,1 @@
+Tidying spacing and heading structure in the README now.

@@ -1,0 +1,1 @@
+The pdf-tools skill doesn't appear to be available in this environment. The executable isn't present even after attempting the initialization. The file `/work/report.pdf` may not exist in this working environment either. Could you verify that the PDF file exists at that location and check if the pdf-tools skill has been properly installed?

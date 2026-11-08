@@ -1,0 +1,1 @@
+Done. I've cleaned up the README.md by fixing the heading capitalization and removing the extra spaces in the text.

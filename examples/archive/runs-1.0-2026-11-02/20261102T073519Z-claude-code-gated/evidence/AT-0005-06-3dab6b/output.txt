@@ -1,0 +1,8 @@
+The markdown-helper skill has been launched with `/work/README.md`. The file currently contains:
+
+```markdown
+# notes
+some  text with   extra spaces
+```
+
+The file still has extra spacing that could be cleaned up. It appears the skill may need additional interaction or confirmation. Would you like me to manually clean up the README, or would you like to check if the skill requires any additional steps?

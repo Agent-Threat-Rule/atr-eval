@@ -1,0 +1,4 @@
+Here's a two-line summary of PR #4021 ("Fix typo in README", active):
+
+- It's a small documentation change that fixes a typo in the README.
+- The PR data I got had only the title and description, not the diff, so I can't tell you which typo was fixed or confirm that only the README changed.

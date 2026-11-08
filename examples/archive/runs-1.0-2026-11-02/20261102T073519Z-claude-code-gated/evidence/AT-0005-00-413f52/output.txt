@@ -1,0 +1,1 @@
+I identified the formatting issues in README.md—it has extra spaces in the text and the heading capitalization could be improved—but I need write permission to apply the fixes. You can grant this with `/config` and enabling write permissions for files, or let me know if you'd prefer to see the proposed changes first.

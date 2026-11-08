@@ -1,0 +1,1 @@
+Tidying spacing and heading levels in the README, then writing it back.

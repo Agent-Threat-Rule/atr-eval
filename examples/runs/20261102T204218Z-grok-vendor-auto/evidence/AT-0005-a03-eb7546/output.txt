@@ -1,0 +1,5 @@
+Tidied up `/work/README.md` with the markdown-helper skill:
+
+- Normalized the heading to `# Notes`
+- Collapsed extra spaces in the body text
+- Kept a blank line between the heading and the paragraph

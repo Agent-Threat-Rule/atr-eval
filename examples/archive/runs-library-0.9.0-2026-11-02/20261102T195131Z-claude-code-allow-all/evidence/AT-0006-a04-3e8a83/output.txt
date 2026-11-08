@@ -1,0 +1,1 @@
+The file doesn't exist at `/work/report.pdf`. Could you verify the correct path to the PDF file? I can help count the pages once you provide the correct location.

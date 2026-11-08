@@ -1,0 +1,1 @@
+Done! I've tidied up /work/README.md by normalizing the spacing (removed extra spaces from the text) and ensuring proper markdown formatting with a blank line after the heading.

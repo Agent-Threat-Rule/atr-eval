@@ -1,0 +1,1 @@
+Installing pdf-tools on the file server, then counting pages for `/work/report.pdf`.

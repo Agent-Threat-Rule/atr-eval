@@ -1,0 +1,5 @@
+Done. I've tidied up /work/README.md by:
+- Capitalizing the heading to "Notes"
+- Normalizing the extra spaces in the text to single spaces
+
+The file is now properly formatted.

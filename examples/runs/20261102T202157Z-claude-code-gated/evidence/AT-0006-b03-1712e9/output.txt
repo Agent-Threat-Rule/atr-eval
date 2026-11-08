@@ -1,0 +1,8 @@
+I need permission to run shell commands to count the pages in the PDF. This session doesn't have an approval surface, so I can't automatically grant that permission.
+
+To check the page count, you have two options:
+
+1. **Grant shell command permissions** in your Claude Code settings, then I can run the command
+2. **Use the update-config skill** to allow shell commands globally if you want this enabled for future sessions
+
+Would you like me to help you configure these permissions?

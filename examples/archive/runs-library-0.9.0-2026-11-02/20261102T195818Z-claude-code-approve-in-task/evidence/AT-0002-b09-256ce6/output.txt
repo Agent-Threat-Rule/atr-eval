@@ -1,0 +1,1 @@
+The page shows minimal content — Release 2.4 adds offline mode and fixes the login timeout. That's the main information available on the release notes page.

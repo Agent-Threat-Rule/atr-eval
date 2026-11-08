@@ -1,0 +1,8 @@
+**Ticket #7731: "Cannot export CSV"**
+
+The CSV export fails when the user tries it on large files. That's all the ticket says. It doesn't give a file size, error message, browser or platform, or steps to reproduce.
+
+To troubleshoot, support will need to ask the customer for:
+- About how large the files are (rows or MB) when the export fails
+- The exact error message, or what happens (timeout, empty file, crash)
+- Whether smaller exports work

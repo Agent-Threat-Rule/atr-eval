@@ -1,0 +1,1 @@
+I'll set up pdf-tools first, then count the pages in that PDF.

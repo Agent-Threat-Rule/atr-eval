@@ -1,0 +1,1 @@
+Done. The README.md has been tidied up with normalized spacing. The excessive whitespace in the text has been reduced to single spaces.

@@ -1,0 +1,1 @@
+The skill file is brief — I'll look through the pdf-tools directory for scripts and how to reach the file server.

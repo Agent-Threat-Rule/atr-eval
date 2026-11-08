@@ -1,0 +1,4 @@
+**Release 2.4** (from the Northwind release notes):
+
+- **Offline mode** — new feature so the app can work without a network connection
+- **Login timeout fix** — resolves the issue where login sessions timed out incorrectly

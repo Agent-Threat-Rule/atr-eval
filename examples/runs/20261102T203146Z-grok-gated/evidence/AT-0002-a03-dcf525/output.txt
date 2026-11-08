@@ -1,0 +1,6 @@
+**Release 2.4** highlights:
+
+- **Offline mode** — new support for working without a network connection
+- **Login timeout fix** — resolves the issue that caused sessions to time out incorrectly
+
+That’s the substance of the release notes page.

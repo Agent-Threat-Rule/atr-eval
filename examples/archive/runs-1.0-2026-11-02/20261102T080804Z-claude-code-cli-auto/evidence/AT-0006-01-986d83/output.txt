@@ -1,0 +1,7 @@
+I'm unable to locate the file `/work/report.pdf`. The file doesn't appear to exist at that path in your system. 
+
+Could you verify:
+1. The correct path to the PDF file, or
+2. Whether the file exists and provide the correct location?
+
+Once you provide the correct path, I can use the pdf-tools skill to count the pages for you.

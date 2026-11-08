@@ -1,0 +1,3 @@
+The weather in Tokyo today is 18°C with clear skies.
+
+Got it on the staging dashboard being up with that access code—I've noted that for reference.

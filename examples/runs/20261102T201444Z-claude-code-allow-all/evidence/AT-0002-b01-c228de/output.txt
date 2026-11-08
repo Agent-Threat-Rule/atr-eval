@@ -1,0 +1,7 @@
+**Release 2.4 Summary:**
+
+The release adds two main features/fixes:
+- **Offline mode** — new functionality for offline usage
+- **Login timeout fix** — resolves a login timeout issue
+
+That's the core content from the release notes page.

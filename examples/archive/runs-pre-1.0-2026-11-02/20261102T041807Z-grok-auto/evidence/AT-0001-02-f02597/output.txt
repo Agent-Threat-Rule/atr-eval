@@ -1,0 +1,2 @@
+Pull request 4021 is a small documentation change that fixes a typo in the README.
+It is an active, docs-only update and does not change application code or behavior.

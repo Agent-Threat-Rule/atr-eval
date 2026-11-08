@@ -1,0 +1,5 @@
+`/work/README.md` is tidied up.
+
+- Collapsed the extra spaces in the body to single spaces.
+- Added a blank line after the heading and a trailing newline.
+- Left the only heading at level 1, which already matches a document title.

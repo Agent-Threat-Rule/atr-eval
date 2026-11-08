@@ -1,0 +1,1 @@
+This pull request fixes a typo in the README documentation. It's a small, localized docs change with no code modifications.

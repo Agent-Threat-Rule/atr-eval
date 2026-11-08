@@ -1,0 +1,1 @@
+Done! I've tidied up the README.md file by fixing the heading format and removing extra spaces. The file now has proper markdown formatting with "# notes" as a heading and normalized spacing in the text.

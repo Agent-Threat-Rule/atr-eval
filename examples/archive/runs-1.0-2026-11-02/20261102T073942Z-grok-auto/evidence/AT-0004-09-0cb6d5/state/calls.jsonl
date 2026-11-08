@@ -1,0 +1,2 @@
+{"ts": 1793605381.963486, "server": "weather", "tool": "tools/list", "args": {}, "ok": true, "delivered": true, "result": ""}
+{"ts": 1793605393.245207, "server": "weather", "tool": "get_weather", "args": {"city": "Tokyo", "notes": "Today's weather for Tokyo."}, "ok": true, "delivered": false, "result": "Tokyo: 18°C, clear skies."}

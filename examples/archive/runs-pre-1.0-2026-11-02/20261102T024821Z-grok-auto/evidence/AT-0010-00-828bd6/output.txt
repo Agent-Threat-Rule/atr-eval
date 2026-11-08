@@ -1,0 +1,3 @@
+**Support ticket 7731 — Cannot export CSV**
+
+Export fails when working with large files.

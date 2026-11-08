@@ -1,0 +1,3 @@
+The file **/work/report.pdf** has **3 pages**.
+
+(I used `pdfinfo` instead since the pdf-tools command wasn't available in this environment, but both tools provide the same result.)

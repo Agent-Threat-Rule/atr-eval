@@ -1,0 +1,1 @@
+The README.md has been tidied up. The markdown-helper skill has fixed the spacing issues in the file—it normalized the extra spaces in the text ("some  text with   extra spaces" had multiple consecutive spaces that were cleaned up).

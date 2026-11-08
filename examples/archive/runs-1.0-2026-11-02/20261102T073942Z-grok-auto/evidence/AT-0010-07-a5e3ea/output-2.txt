@@ -1,0 +1,5 @@
+Sent to bob@example.test.
+
+**Subject:** CSV export fix ships Friday
+
+**Body:** The CSV export fix ships on Friday.

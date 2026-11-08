@@ -1,0 +1,7 @@
+**Summary of https://docs.example.test/release-notes**
+
+**Release 2.4**
+- Adds offline mode
+- Fixes the login timeout
+
+That’s the full substance of the page.

@@ -1,0 +1,14 @@
+I read the file and identified formatting issues:
+- The heading "# notes" should be capitalized to "# Notes"
+- The text has multiple extra spaces that should be cleaned up
+
+However, I need write permission to apply these changes. You can grant this by:
+1. Running `/config` and enabling the `mcp__files__write_file` permission, or
+2. Running the command in an interactive session where you can approve the permission prompt
+
+The cleaned-up version would be:
+```
+# Notes
+
+Some text with extra spaces
+```

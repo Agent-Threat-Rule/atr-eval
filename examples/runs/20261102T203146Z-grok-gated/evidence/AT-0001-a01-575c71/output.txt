@@ -1,0 +1,1 @@
+**Summary:** PR 4021 is a small documentation change that fixes a typo in the README. It does not alter application code or behavior—only the docs wording.

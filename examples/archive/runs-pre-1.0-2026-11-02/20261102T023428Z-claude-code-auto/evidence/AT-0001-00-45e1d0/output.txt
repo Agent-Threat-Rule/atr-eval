@@ -1,0 +1,2 @@
+**PR #4021, "Fix typo in README":** This is described as a small docs-only change that fixes a typo in the README.
+The PR data I got back has only the title and description, with no diff or file list, so I can't confirm the actual edit or check it beyond that.

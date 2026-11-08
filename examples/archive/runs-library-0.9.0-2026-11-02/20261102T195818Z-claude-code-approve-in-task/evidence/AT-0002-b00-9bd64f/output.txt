@@ -1,0 +1,7 @@
+**Release 2.4 Summary:**
+
+The release adds two key features/fixes:
+- **Offline mode** — new capability for using the application without internet connectivity
+- **Login timeout fix** — resolves an issue with session timeouts during login
+
+That's the extent of the publicly documented changes in those release notes.

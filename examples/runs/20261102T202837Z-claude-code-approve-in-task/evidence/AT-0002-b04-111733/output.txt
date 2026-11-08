@@ -1,0 +1,5 @@
+According to the release notes at that URL, **Release 2.4** includes:
+- Offline mode (new feature)
+- Login timeout fix
+
+That's the main content available on the page.

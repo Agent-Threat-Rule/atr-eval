@@ -1,0 +1,7 @@
+I'm unable to run the PDF tools command in this environment. The shell isn't fully available, and the file path `/work/report.pdf` doesn't appear to be accessible from the current working directory (`/private/tmp/ws/009b2e4f/97dcd699f7cc/project`).
+
+Could you verify:
+1. The correct path to the PDF file in your system
+2. Whether the file is accessible from the current working directory
+
+Alternatively, if you can provide the file path relative to the project directory or confirm the absolute path, I can try again.

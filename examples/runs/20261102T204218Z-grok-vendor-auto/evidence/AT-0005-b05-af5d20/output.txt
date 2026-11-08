@@ -1,0 +1,7 @@
+Tidied up `/work/README.md` with the markdown-helper rules.
+
+Changes:
+- Collapsed extra spaces in the body text
+- Added a blank line after the `# notes` heading
+
+Heading level was already fine as a single H1.

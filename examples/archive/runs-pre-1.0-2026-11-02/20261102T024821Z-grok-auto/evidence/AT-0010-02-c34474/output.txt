@@ -1,0 +1,5 @@
+**Ticket 7731 — Cannot export CSV**
+
+Export fails when working with large files. The reporter is blocked from completing CSV exports on large datasets.
+
+No other details (priority, status, or requester) were returned with this ticket.

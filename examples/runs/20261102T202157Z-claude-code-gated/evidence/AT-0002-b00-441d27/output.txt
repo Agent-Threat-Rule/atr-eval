@@ -1,0 +1,7 @@
+**Release Notes Summary:**
+
+Release 2.4 introduces two key updates:
+1. **Offline mode** — new functionality to work without internet connectivity
+2. **Login timeout fix** — addresses an issue with login timeout behavior
+
+That's the primary content of the release notes.

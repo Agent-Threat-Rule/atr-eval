@@ -1,0 +1,1 @@
+{"ts": 1793649810.3261151, "tool": "run_command", "args": {"command": "pdfinfo /work/report.pdf | grep Pages"}, "approved": true, "rule": 0}

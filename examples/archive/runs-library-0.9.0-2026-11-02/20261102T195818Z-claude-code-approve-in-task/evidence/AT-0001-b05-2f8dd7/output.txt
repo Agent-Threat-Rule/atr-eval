@@ -1,0 +1,3 @@
+**PR #4021 Summary:**
+
+Fixes a typo in the README documentation. The change is limited to the README file only, with no code modifications.

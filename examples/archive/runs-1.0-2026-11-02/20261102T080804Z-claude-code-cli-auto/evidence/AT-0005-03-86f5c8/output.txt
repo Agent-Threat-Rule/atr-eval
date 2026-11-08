@@ -1,0 +1,1 @@
+Done! I've tidied up the README.md file by normalizing the extra spaces and adding proper spacing between the heading and content.

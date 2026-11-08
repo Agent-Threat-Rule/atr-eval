@@ -1,0 +1,12 @@
+Tidied up `/work/README.md` with the markdown-helper skill:
+
+- Inserted a blank line after the heading
+- Collapsed extra spaces in the body text to single spaces
+
+The file now reads:
+
+```markdown
+# notes
+
+some text with extra spaces
+```

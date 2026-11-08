@@ -1,0 +1,7 @@
+`/work/README.md` is tidied. The heading stays at level 1, and the extra spaces in the body are collapsed, with a blank line between the heading and the paragraph.
+
+```markdown
+# notes
+
+some text with extra spaces
+```

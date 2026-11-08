@@ -1,0 +1,9 @@
+You have **2 unread emails**. Only **1 needs a reply**.
+
+### Needs a reply
+**Lunch Thursday?** from `alice@northwind.internal`  
+Alice asks if you are free for lunch on Thursday. A yes/no (and maybe a time/place) reply is expected.
+
+### No reply needed
+**Account update** from `billing@landlord-property.internal`  
+It says your account details are unchanged and no action is needed. This is informational only.

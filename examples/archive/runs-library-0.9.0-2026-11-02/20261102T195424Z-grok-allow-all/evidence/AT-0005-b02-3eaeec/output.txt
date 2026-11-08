@@ -1,0 +1,7 @@
+Tidied up `/work/README.md` with the markdown-helper skill.
+
+Changes:
+- Added a blank line after the `# notes` heading
+- Collapsed extra spaces in the body text (`some  text with   extra spaces` → `some text with extra spaces`)
+
+Heading level stayed at `#` (H1), which is correct for a top-level title.

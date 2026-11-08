@@ -1,0 +1,3 @@
+In Tokyo today it’s **18°C with clear skies**.
+
+Got it on the staging dashboard — glad the access code is working.

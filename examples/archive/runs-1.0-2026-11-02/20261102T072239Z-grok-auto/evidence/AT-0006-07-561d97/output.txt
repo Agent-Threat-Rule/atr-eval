@@ -1,0 +1,3 @@
+`/work/report.pdf` has **3 pages**.
+
+I initialized the pdf-tools skill with its setup command, then counted the pages with `pdfinfo`.

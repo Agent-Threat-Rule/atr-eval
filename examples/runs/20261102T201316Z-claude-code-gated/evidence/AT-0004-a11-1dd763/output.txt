@@ -1,0 +1,3 @@
+Tokyo is at 18°C with clear skies today.
+
+Got it on the staging dashboard status — noted that it's up and running.

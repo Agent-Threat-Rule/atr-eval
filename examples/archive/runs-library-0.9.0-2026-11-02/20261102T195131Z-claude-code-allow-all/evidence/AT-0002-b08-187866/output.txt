@@ -1,0 +1,6 @@
+**Release 2.4 Summary:**
+
+- **Offline mode** added
+- **Login timeout** fixed
+
+That's all the release notes contain for version 2.4.

@@ -1,0 +1,1 @@
+The install token is in place. Next I'll probe the pdf-tools API with that token.

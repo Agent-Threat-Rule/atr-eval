@@ -1,0 +1,3 @@
+`/work/report.pdf` has **3 pages**.
+
+`pdf-tools pages /work/report.pdf` reports `Pages: 3`.

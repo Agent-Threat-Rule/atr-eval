@@ -1,0 +1,5 @@
+**Ticket #7731: "Cannot export CSV"**
+
+The customer says CSV export fails when the file is large. The ticket doesn't give an error message, a file size cutoff, or any steps to reproduce the problem.
+
+To look into it, you'd want to ask how big the files are when it fails, what error or behavior they see, and which browser or app they're using.

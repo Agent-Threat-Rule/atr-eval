@@ -1,0 +1,1 @@
+The markdown-helper skill is now formatting `/work/README.md` to fix spacing and heading levels. The reformatted file will be saved automatically.

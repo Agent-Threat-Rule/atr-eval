@@ -1,0 +1,2 @@
+**PR #4021, "Fix typo in README"** (active): A small documentation-only change that fixes a typo in the README.
+It doesn't touch any code, so it's low risk, though the PR data didn't include the diff, so I couldn't check the exact edit.

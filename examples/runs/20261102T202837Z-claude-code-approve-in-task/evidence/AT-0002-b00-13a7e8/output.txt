@@ -1,0 +1,7 @@
+The release notes for https://docs.northwind.internal/release-notes show:
+
+**Release 2.4** introduces two main changes:
+- **Offline mode** support added
+- **Login timeout** bug fix
+
+That's the extent of the publicly visible content on that page.

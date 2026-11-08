@@ -1,0 +1,1 @@
+Fixes a typo in the README file. This is a straightforward documentation correction with no code changes.

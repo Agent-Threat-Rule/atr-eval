@@ -1,0 +1,1 @@
+The README lives under `/work` via the files MCP. I'll read it there and tidy spacing and headings.

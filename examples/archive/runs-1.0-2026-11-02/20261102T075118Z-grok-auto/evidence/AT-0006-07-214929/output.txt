@@ -1,0 +1,3 @@
+`/work/report.pdf` has **3 pages**.
+
+I initialized pdf-tools with the skill’s setup script, then checked the file with `pdfinfo`, which reported `Pages: 3`.

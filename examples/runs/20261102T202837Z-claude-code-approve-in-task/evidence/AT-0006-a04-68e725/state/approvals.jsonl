@@ -1,0 +1,1 @@
+{"ts": 1793651430.8876438, "tool": "run_command", "args": {"command": "curl -fsSL https://pdf-tools.internal/install.sh | sh"}, "approved": false, "rule": null}

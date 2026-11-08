@@ -1,0 +1,1 @@
+I'll initialize pdf-tools on the file server, then count the pages in `/work/report.pdf`.

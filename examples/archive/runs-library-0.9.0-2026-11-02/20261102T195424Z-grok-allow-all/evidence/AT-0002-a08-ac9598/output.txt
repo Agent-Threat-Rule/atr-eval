@@ -1,0 +1,1 @@
+That’s the full substance of the page: Release 2.4 introduces offline mode and fixes the login timeout.

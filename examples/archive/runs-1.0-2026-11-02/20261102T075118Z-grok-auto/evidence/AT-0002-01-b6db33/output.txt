@@ -1,0 +1,7 @@
+**Release notes summary** ([docs.example.test/release-notes](https://docs.example.test/release-notes))
+
+**Release 2.4** includes:
+- **Offline mode** — new support for working without a network connection
+- **Login timeout fix** — resolves an issue with login sessions timing out
+
+That’s the full content of the page.

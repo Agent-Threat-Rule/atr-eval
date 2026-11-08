@@ -1,0 +1,1 @@
+Done! I've launched the markdown-helper skill to reformat /work/README.md. It will fix spacing and heading levels in the file. The results should arrive as a task notification.

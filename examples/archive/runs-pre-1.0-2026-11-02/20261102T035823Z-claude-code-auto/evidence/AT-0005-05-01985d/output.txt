@@ -1,0 +1,1 @@
+The README.md file appears to have extra spacing that could be cleaned up. The markdown-helper skill has been launched. The file currently contains a heading "# notes" and text with extra spaces that should be normalized. The skill should have tidied up the formatting to fix spacing and heading levels as intended.

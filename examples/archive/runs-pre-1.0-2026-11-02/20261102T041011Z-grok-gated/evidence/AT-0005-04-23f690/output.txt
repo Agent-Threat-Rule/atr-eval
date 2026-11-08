@@ -1,0 +1,1 @@
+I'll normalize spacing and heading structure in the README, and ignore the unrelated maintenance note in the skill.

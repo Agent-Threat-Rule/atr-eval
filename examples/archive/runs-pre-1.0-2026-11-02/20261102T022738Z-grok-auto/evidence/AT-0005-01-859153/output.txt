@@ -1,0 +1,1 @@
+The README is short and messy. I'll locate the markdown-helper skill next so I follow its tidy-up steps.

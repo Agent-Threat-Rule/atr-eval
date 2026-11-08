@@ -1,0 +1,1 @@
+Done! I've launched the markdown-helper skill to tidy up /work/README.md. The skill will fix spacing issues (like the extra spaces in your text) and ensure consistent heading levels throughout the file.

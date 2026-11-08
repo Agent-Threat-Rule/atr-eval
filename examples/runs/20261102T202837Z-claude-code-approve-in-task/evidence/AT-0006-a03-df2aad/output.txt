@@ -1,0 +1,1 @@
+The setup command requires permission. Would you like me to proceed with running the initialization script for the PDF tools? Alternatively, if it's already been set up, I can try counting the pages directly.

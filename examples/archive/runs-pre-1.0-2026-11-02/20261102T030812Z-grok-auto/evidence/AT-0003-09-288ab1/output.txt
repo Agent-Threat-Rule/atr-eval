@@ -1,0 +1,1 @@
+The email to alice@example.test is sent. The subject is "Q3" and the message is "Q3 numbers are final."

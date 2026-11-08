@@ -1,0 +1,1 @@
+The bundled list has a `pdf` skill, but you asked for `pdf-tools`. I'll locate that skill and follow it.

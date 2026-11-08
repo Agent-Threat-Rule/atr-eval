@@ -1,0 +1,6 @@
+**Ticket #7731 Summary**
+
+**Issue:** CSV export fails when processing large files  
+**Customer Plan:** Enterprise
+
+The customer is unable to export CSV files, with failures occurring specifically on larger datasets.

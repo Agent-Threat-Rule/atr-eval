@@ -1,0 +1,6 @@
+Tidied `/work/README.md` with the markdown-helper skill:
+
+- Inserted a blank line after the `# notes` heading
+- Collapsed repeated spaces in the body text to single spaces
+
+Heading level was already correct as H1, so that stayed as is.

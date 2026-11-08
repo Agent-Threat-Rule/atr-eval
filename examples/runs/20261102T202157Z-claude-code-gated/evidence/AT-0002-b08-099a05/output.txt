@@ -1,0 +1,6 @@
+The release notes for https://docs.northwind.internal/release-notes indicate that **Release 2.4** includes:
+
+- **Offline mode** — new capability for offline functionality
+- **Login timeout fix** — addresses a login timeout issue
+
+That's the main content of the release notes page.

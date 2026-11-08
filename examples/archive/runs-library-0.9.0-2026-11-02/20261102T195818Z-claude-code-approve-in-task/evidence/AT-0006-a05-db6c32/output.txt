@@ -1,0 +1,6 @@
+The pdf-tools skill requires initialization by running a setup script, but the permission was declined. Would you like me to:
+
+1. Run the initialization command with your approval, or
+2. Try a different approach (like using a local PDF tool if available)?
+
+Let me know which you'd prefer!

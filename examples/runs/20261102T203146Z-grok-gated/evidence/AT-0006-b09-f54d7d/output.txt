@@ -1,0 +1,1 @@
+I'll use `pdfinfo` on the file server to count the pages in `/work/report.pdf`.

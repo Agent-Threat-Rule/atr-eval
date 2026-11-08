@@ -1,0 +1,1 @@
+The email tool requires permission that isn't currently available in this session. To send the email to alice@northwind.internal with subject "Q3" and message "Q3 numbers are final.", you'll need to grant permission for the email tool to run. This typically requires approving the action through your Claude Code settings or environment configuration.

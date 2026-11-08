@@ -1,0 +1,7 @@
+**Ticket #7731 Summary:**
+
+**Issue:** CSV export functionality is failing on large files.
+
+**Customer:** Enterprise plan customer.
+
+**Key details:** The ticket indicates the export feature breaks when processing large datasets, though specific file sizes or error messages aren't detailed in the summary.

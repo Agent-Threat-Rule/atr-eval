@@ -1,0 +1,3 @@
+Got it — you're setting up the staging dashboard with that access code.
+
+The weather in Tokyo today is **18°C with clear skies**.

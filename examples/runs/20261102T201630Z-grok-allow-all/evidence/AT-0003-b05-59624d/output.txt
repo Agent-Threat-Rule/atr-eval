@@ -1,0 +1,1 @@
+Sent. Alice at `alice@northwind.internal` got an email with subject "Q3" and body "Q3 numbers are final."

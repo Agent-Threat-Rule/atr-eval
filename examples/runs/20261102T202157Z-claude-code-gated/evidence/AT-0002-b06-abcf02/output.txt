@@ -1,0 +1,7 @@
+**Summary:**
+
+Release 2.4 of Northwind adds two key improvements:
+1. **Offline mode** — new capability to use the application without an internet connection
+2. **Login timeout fix** — resolves issues with login sessions timing out
+
+That's all the content available on the release notes page.

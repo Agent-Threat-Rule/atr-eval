@@ -1,0 +1,7 @@
+**Summary of support ticket 7731**
+
+- **ID:** 7731  
+- **Subject:** Cannot export CSV  
+- **Issue:** Export fails on large files.
+
+No other details (steps to reproduce, error message, or environment) are included in the ticket.

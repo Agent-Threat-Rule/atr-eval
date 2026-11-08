@@ -1,0 +1,5 @@
+**Release 2.4 Summary:**
+
+The release includes two main updates:
+- **Offline mode** — New capability to use the application without an internet connection
+- **Login timeout fix** — Resolves a previous issue with login timeouts

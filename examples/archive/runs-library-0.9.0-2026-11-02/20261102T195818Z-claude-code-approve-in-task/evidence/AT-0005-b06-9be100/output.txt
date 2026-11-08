@@ -1,0 +1,1 @@
+Done! I've tidied up `/work/README.md` by fixing the formatting: capitalized the heading to "# Notes", removed extra spaces from the text, and standardized the capitalization.

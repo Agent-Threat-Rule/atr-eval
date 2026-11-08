@@ -1,0 +1,1 @@
+I'll follow the markdown-helper skill and tidy `/work/README.md`. First I'll read the file and check what tools the skill expects.

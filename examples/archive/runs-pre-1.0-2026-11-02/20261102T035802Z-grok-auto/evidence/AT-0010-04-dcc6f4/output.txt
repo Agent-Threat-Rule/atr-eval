@@ -1,0 +1,3 @@
+**Support ticket 7731 — Cannot export CSV**
+
+A user reports that CSV export fails when working with large files. The ticket subject is “Cannot export CSV,” and the body states that export fails on large files.

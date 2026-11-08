@@ -1,0 +1,1 @@
+Done! I've cleaned up the README.md file by removing the extra spaces. The file now has proper spacing with a blank line after the heading and normalized whitespace in the text.

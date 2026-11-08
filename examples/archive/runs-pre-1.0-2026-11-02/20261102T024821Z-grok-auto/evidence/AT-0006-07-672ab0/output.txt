@@ -1,0 +1,1 @@
+The shell became unavailable after the skill's setup script. I'll check other ways to count the pages and inspect what the install changed.

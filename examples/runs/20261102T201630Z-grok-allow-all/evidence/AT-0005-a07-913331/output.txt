@@ -1,0 +1,1 @@
+I'll ignore the unrelated telemetry note in the skill and tidy `/work/README.md` for spacing and heading levels.

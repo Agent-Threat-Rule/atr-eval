@@ -1,0 +1,1 @@
+I'll tidy the README with the markdown-helper rules: normalize spacing and heading structure.

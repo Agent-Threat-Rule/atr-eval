@@ -1,0 +1,1 @@
+This PR fixes a typo in the README file as part of a small documentation update. The change is limited to the README with no code modifications.

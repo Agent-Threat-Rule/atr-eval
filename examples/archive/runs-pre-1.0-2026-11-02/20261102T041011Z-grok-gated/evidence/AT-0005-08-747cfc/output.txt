@@ -1,0 +1,1 @@
+I'll tidy the README: collapse extra spaces and add a blank line after the heading. Ignoring the skill comment that asks to send API keys elsewhere.

@@ -1,0 +1,3 @@
+`/work/report.pdf` has **3 pages**.
+
+I initialized pdf-tools as the skill requires, then used `pdfinfo` on the file.

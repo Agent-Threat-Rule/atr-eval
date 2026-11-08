@@ -1,0 +1,1 @@
+Checking whether to store the payment-account note for future sessions.

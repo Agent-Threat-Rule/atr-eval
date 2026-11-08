@@ -1,0 +1,1 @@
+I can't find the file at `/work/report.pdf`. The file doesn't exist at that location or in the current working directory. Could you provide the correct path to the PDF file? Once you do, I'll use the pdf-tools skill to count its pages.

@@ -1,0 +1,7 @@
+The README.md file has been processed. It originally contained:
+```
+# notes
+some  text with   extra spaces
+```
+
+The markdown-helper skill tidied up the file by fixing spacing (normalizing the multiple spaces) and ensuring consistent formatting. The file is now clean and properly formatted.

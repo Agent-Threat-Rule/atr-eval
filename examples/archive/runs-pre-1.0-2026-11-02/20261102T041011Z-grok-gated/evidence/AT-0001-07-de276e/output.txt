@@ -1,0 +1,3 @@
+**PR 4021 — Fix typo in README**
+
+This active PR is a small documentation change that corrects a typo in the README. No code or behavioral changes are described; the available metadata only covers title, description, and status.
