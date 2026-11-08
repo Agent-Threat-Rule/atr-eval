@@ -42,6 +42,11 @@ A built-in driver is worth adding when an agent needs isolation that a command l
 every built-in tool that touches the host must be off or denied by rule, and every permission mode it offers must do
 what its name says (specification 5.6). A mode the agent cannot support is refused, not approximated.
 
+## Credit
+
+Every merged contribution from outside the maintainer gets a line in [CHANGELOG.md](CHANGELOG.md) with your GitHub
+handle, and new tests carry your name in their provenance if you want it there.
+
 ## Pull requests written with AI help
 
 Say so in the pull request. A person who has read the change answers review comments. Keep agent-opened pull requests
