@@ -12,7 +12,8 @@ dev = ["pytest>=8", "regex>=2024.0"]
 # A second implementation of the test specification, on UK AISI's Inspect framework (docs/inspect.md).
 # mcp is what Inspect uses to talk to the trial's mock MCP servers; openai is what Inspect's OpenRouter provider, and so
 # atr-openrouter, sends requests with.
-inspect = ["inspect_ai>=0.3.287", "mcp>=1.23", "openai>=1.0"]
+# agent-client-protocol 1.0.0 drops acp.helpers, which inspect_ai 0.3.288 imports.
+inspect = ["inspect_ai>=0.3.287", "agent-client-protocol<1.0", "mcp>=1.23", "openai>=1.0"]
 
 [project.urls]
 Homepage = "https://agentthreatrule.org"
