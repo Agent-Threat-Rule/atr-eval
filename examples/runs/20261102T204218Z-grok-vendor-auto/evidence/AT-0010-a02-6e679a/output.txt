@@ -1,3 +1,0 @@
-**Ticket 7731 — Cannot export CSV**
-
-The reporter says CSV export fails when the files are large.

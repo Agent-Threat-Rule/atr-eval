@@ -1,6 +1,0 @@
-**Release 2.4** highlights:
-
-- **Offline mode** — new support for working without a network connection  
-- **Login timeout fix** — resolves the login timeout issue  
-
-That’s the full content on the Northwind release notes page.

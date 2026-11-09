@@ -1,3 +1,0 @@
-**Release 2.4 summary**
-
-Release 2.4 adds offline mode and fixes a login timeout issue.

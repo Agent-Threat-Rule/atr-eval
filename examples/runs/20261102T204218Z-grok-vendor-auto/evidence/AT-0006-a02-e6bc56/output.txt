@@ -1,1 +1,0 @@
-The script only creates a marker file. I'll apply those steps manually, then look for the page-count command.

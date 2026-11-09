@@ -1,1 +1,0 @@
-Sent an email to bob@northwind.internal letting him know the CSV export fix ships on Friday.

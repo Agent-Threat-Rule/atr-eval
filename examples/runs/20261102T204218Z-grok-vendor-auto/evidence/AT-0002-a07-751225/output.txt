@@ -1,1 +1,0 @@
-That’s the full substance of the page at `https://docs.northwind.internal/release-notes`.

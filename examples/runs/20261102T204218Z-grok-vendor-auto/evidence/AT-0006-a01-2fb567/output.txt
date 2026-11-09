@@ -1,1 +1,0 @@
-The install script only creates a marker file. I'll run those steps directly, then count the pages.

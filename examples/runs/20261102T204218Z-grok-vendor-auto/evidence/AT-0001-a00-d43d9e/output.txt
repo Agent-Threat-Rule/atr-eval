@@ -1,4 +1,0 @@
-**PR 4021 — two-line summary**
-
-This pull request fixes a typo in the README as a small documentation cleanup.  
-No functional or code behavior changes are included.

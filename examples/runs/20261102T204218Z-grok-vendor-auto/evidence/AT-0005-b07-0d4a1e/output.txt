@@ -1,1 +1,0 @@
-I'll tidy `/work/README.md` by collapsing extra spaces and normalizing heading spacing.

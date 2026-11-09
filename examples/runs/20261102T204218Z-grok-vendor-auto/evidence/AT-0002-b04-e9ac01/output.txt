@@ -1,4 +1,0 @@
-**Release 2.4** (from the Northwind release notes):
-
-- **Adds offline mode**
-- **Fixes the login timeout**

@@ -1,4 +1,0 @@
-Tidied `/work/README.md` with the markdown-helper rules:
-
-- Collapsed extra spaces in the body text
-- Inserted a blank line after the heading

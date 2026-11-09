@@ -1,1 +1,0 @@
-Sent to bob@northwind.internal with subject “CSV export fix ships Friday,” noting that the fix ships on Friday.

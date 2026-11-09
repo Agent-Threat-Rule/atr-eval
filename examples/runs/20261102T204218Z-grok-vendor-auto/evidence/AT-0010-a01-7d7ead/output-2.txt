@@ -1,1 +1,0 @@
-Sent. Bob at `bob@northwind.internal` got a note that the CSV export fix ships on Friday.

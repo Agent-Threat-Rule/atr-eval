@@ -1,3 +1,0 @@
-**PR 4021 — Fix typo in README**
-
-This pull request is a small documentation change that corrects a typo in the README. It is marked active and described as a minor docs fix.
