@@ -119,3 +119,12 @@ def test_a_finished_trial_keeps_only_its_evidence(tmp_path, atomics):
     prune_work(trial)
     assert sorted(p.relative_to(trial).as_posix() for p in trial.rglob("*")) == ["output.txt", "state", "state/calls.jsonl"]
     assert (outside / "keep.txt").exists()  # a link is removed as a link; its target is never touched
+
+
+def test_claude_code_gets_an_api_key_only_when_the_operator_sets_one(monkeypatch):
+    from atr_eval.drivers import _clean_env
+
+    monkeypatch.delenv("ANTHROPIC_API_KEY", raising=False)
+    assert "ANTHROPIC_API_KEY" not in _clean_env()
+    monkeypatch.setenv("ANTHROPIC_API_KEY", "test-value")
+    assert _clean_env()["ANTHROPIC_API_KEY"] == "test-value"
