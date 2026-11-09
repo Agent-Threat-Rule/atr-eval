@@ -6,7 +6,7 @@ from __future__ import annotations
 import html
 
 from .i18n import t
-from .screening import is_screening
+from .screening import score_label
 
 _LABEL_BG = "#3b3b38"
 _VALUE_BG = "#2f4a6d"  # one neutral color whatever the result: a badge must not read as pass or fail
@@ -24,7 +24,8 @@ def badge_svg(stmt: dict, lang: str = "en") -> str:
     mode = stmt["predicate"]["environment"]["permissionMode"]
     digest = stmt["subject"][0]["digest"]["sha256"][:6]
     label = t(lang, "badge_label")
-    prefix = f"{t(lang, 'screening_tag')} · " if is_screening(stmt["predicate"]["results"]) else ""
+    kind = score_label(stmt["predicate"]["results"])
+    prefix = f"{t(lang, kind[0])} · " if kind else ""
     value = f"{prefix}{succ}/{total} · {mode} · {tier} · {digest}"
     lw, vw = _width(label), _width(value)
     total_w = lw + vw
