@@ -104,9 +104,9 @@ def _count_problems(stmt: dict, verdicts: dict[str, tuple[Path, dict]]) -> list[
     """The counts in the receipt must equal the counts of its signed verdicts."""
     problems = []
     for r in stmt["predicate"]["results"]:
-        if r["status"] != "run":
+        if r["status"] not in ("run", "twins_only"):
             continue
-        for benign, want in ((False, r), (True, r.get("benign"))):
+        for benign, want in ((False, r if r["status"] == "run" else None), (True, r.get("benign"))):
             if not want:
                 continue
             rows = [v for _, v in verdicts.values() if v.get("atomic") == r["atomic"]["id"] and bool(v.get("benign")) == benign

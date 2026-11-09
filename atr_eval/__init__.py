@@ -1,3 +1,3 @@
 """ATR Eval: agent hijacking tests with a mock tool world, deterministic oracles and signed receipts."""
 
-__version__ = "0.4.1"
+__version__ = "0.4.2"
