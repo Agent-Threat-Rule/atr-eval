@@ -3,7 +3,7 @@
 #   ATR_AGENT_MODEL=ollama/qwen2.5:3b atr-eval run --agent-config examples/agents/inspect-react/agent.yaml --trials 15
 name: inspect-react
 version: "1"
-model: {provider: inspect, id: "set by ATR_AGENT_MODEL"}
+model: {provider: inspect, id: "${ATR_AGENT_MODEL}"}  # resolved when the run starts, so the receipt names the model
 command: ["python3", "{config_dir}/agent.py"]  # the python3 of the environment where ATR Eval and inspect_ai are installed
 task_via: stdin
 timeout: 600

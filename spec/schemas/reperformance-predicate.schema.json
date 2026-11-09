@@ -20,6 +20,7 @@
     "sameProfile": {"type": "boolean"},
     "sameRunner": {"type": "boolean"},
     "sameAtomicSet": {"type": "boolean"},
+    "sameModel": {"type": "boolean", "description": "both receipts name the same model, and the original names a model at all"},
     "original": {"$ref": "#/$defs/side"},
     "reperformed": {"$ref": "#/$defs/side"},
     "performer": {

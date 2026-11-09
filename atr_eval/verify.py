@@ -12,6 +12,7 @@ from cryptography.hazmat.primitives import serialization
 from cryptography.hazmat.primitives.asymmetric.ed25519 import Ed25519PublicKey
 
 from .atomics import Atomic
+from .model_identity import summarize
 from .receipt import WrongKeyType, key_id, verify_envelope
 from .rescore import rescore_run
 from .trial import evidence_digest
@@ -27,6 +28,7 @@ class Verdict:
     evidence_mismatch: list[str] = field(default_factory=list)
     evidence_missing: list[str] = field(default_factory=list)
     trials_file_mismatch: list[str] = field(default_factory=list)
+    model_reports_mismatch: list[str] = field(default_factory=list)
     rescore_problems: list[str] | None = None  # None: not rescored
     signature_only: bool = False
 
@@ -38,7 +40,7 @@ class Verdict:
             return False
         if self.signature_only:
             return True
-        if self.evidence_mismatch or self.evidence_missing or self.trials_file_mismatch:
+        if self.evidence_mismatch or self.evidence_missing or self.trials_file_mismatch or self.model_reports_mismatch:
             return False
         return not self.rescore_problems
 
@@ -123,6 +125,15 @@ def check_trials_file(run_dir: Path, verdicts: dict[str, tuple[Path, dict]]) -> 
     return bad
 
 
+def check_model_reports(stmt: dict, verdicts: dict[str, tuple[Path, dict]]) -> list[str]:
+    """The receipt's summary of the models the agent reported must be the one its signed verdicts add up to."""
+    want = summarize([v for _, v in verdicts.values()], stmt["predicate"]["profile"]["model"])
+    have = stmt["predicate"].get("modelReports")
+    if want == have:
+        return []
+    return [f"modelReports is {have} in the receipt but the signed verdicts add up to {want}"]
+
+
 def verify_run(run_dir: Path, trusted_key: Path | None = None, atomics: list[Atomic] | None = None,
                signature_only: bool = False) -> Verdict:
     """Raises if the signature does not verify with the given key, or with the key in the folder when none is given.
@@ -143,7 +154,8 @@ def verify_run(run_dir: Path, trusted_key: Path | None = None, atomics: list[Ato
     checked, mismatch, missing = check_evidence(stmt, verdicts)
     problems = rescore_run(stmt, atomics, verdicts) if atomics is not None else None
     return Verdict(**common, evidence_checked=checked, evidence_mismatch=mismatch, evidence_missing=missing,
-                   trials_file_mismatch=check_trials_file(run_dir, verdicts), rescore_problems=problems)
+                   trials_file_mismatch=check_trials_file(run_dir, verdicts),
+                   model_reports_mismatch=check_model_reports(stmt, verdicts), rescore_problems=problems)
 
 
 def verified_statement(run_dir: Path, trusted_key: Path) -> dict:
