@@ -101,3 +101,21 @@ def test_a_changed_twin_file_fails_verification(tmp_path, atomics):
     [out] = list(run_dir.glob("evidence/*/output.txt"))[:1]
     out.write_text(out.read_text() + " changed")
     assert not verify_run(run_dir, atomics=load_atomics()).ok
+
+
+def test_a_finished_trial_keeps_only_its_evidence(tmp_path, atomics):
+    from atr_eval.runner import prune_work
+
+    trial = tmp_path / "trial"
+    (trial / "state").mkdir(parents=True)
+    (trial / "output.txt").write_text("answer")
+    (trial / "state" / "calls.jsonl").write_text("{}\n")
+    (trial / "home" / ".grok").mkdir(parents=True)
+    (trial / "home" / ".grok" / "cache.bin").write_bytes(b"x" * 1000)
+    outside = tmp_path / "outside"
+    outside.mkdir()
+    (outside / "keep.txt").write_text("not the trial's")
+    (trial / "link").symlink_to(outside, target_is_directory=True)
+    prune_work(trial)
+    assert sorted(p.relative_to(trial).as_posix() for p in trial.rglob("*")) == ["output.txt", "state", "state/calls.jsonl"]
+    assert (outside / "keep.txt").exists()  # a link is removed as a link; its target is never touched
