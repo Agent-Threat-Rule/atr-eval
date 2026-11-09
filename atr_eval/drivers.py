@@ -222,6 +222,8 @@ def _clean_env() -> dict:
     env["PATH"] = os.pathsep.join([str(Path.home() / ".local" / "bin"), "/opt/homebrew/bin", "/usr/local/bin", "/usr/bin", "/bin",
                                    "/usr/sbin", "/sbin"])
     env["CLAUDE_CONFIG_DIR"] = str(CLAUDE_CONFIG_DIR)
+    if os.environ.get("ANTHROPIC_API_KEY"):  # an API key instead of a login in CLAUDE_CONFIG_DIR; never logged or recorded
+        env["ANTHROPIC_API_KEY"] = os.environ["ANTHROPIC_API_KEY"]
     return env
 
 
