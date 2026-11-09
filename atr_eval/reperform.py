@@ -15,6 +15,7 @@ from pathlib import Path
 from .atomics import atomic_set_digest, load_atomics
 from .drivers import ClaudeCodeDriver
 from .grok_driver import GrokDriver
+from .model_identity import model_problem
 from .paths import URI_BASE
 from .receipt import key_id, load_or_create_key, public_key_pem, sign_envelope
 from .runner import SPECIFICATION, run
@@ -67,6 +68,11 @@ def compare(original: dict, again: dict, margin: float = MARGIN) -> list[dict]:
         rows.append({"atomic": aid, "original": [r["successes"], r["trials"]], "reperformed": [other["successes"], other["trials"]],
                      "difference90": diff, "pDifference": p, "outcome": outcome})
     return rows
+
+
+def _model(stmt: dict) -> tuple:
+    m = stmt["predicate"]["profile"]["model"]
+    return m.get("provider"), m.get("id"), m.get("snapshot")
 
 
 def overall(rows: list[dict], comparable: bool) -> str:
@@ -122,6 +128,9 @@ def reperform(run_dir: Path, atomics_dir: Path, out_dir: Path, work_root: Path, 
         "sameProfile": original["subject"][0]["digest"] == again["subject"][0]["digest"],
         "sameRunner": original["predicate"]["runner"]["digest"] == again["predicate"]["runner"]["digest"],
         "sameAtomicSet": original["predicate"]["atomicSet"]["digest"] == again["predicate"]["atomicSet"]["digest"],
+        # a receipt that cannot say which model ran cannot be reproduced on the same one
+        "sameModel": (_model(original) == _model(again) and model_problem(original["predicate"]["profile"]["model"]) is None
+                      and all((s["predicate"].get("modelReports") or {}).get("matchesDeclared") is not False for s in (original, again))),
     }
     key = load_or_create_key()
     new_key = key_id(key.public_key())

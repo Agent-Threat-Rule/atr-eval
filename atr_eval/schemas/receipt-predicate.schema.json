@@ -80,6 +80,16 @@
                      "source": {"type": "string"}}
     },
     "cost": {"type": ["object", "null"], "properties": {"estimatedUsd": {"type": "number"}, "source": {"type": "string"}}},
+    "modelReports": {
+      "type": "object", "additionalProperties": false, "required": ["source", "reported", "sessionsWithoutReport", "matchesDeclared"],
+      "description": "What a command agent reported, session by session, about the model that answered it. Written by the agent, not observed by the harness; profile.model is the declared model.",
+      "properties": {
+        "source": {"const": "agent"},
+        "reported": {"type": "object", "propertyNames": {"pattern": "^[A-Za-z0-9._:/@+\\-]{1,200}$"}, "additionalProperties": {"type": "integer", "minimum": 1}, "description": "model name as the agent reported it -> number of sessions"},
+        "sessionsWithoutReport": {"type": "integer", "minimum": 0},
+        "matchesDeclared": {"type": ["boolean", "null"], "description": "every reported model is the declared one, allowing a router prefix; null when nothing was reported"}
+      }
+    },
     "startedOn": {"type": "string", "format": "date-time"},
     "finishedOn": {"type": "string", "format": "date-time"},
     "limitations": {"type": "array", "items": {"type": "string"}, "minItems": 1}

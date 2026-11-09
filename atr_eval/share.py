@@ -21,6 +21,7 @@ from pathlib import Path
 from cryptography.exceptions import InvalidSignature
 
 from .atomics import all_versions
+from .model_identity import model_problem
 from .schema import share_errors
 from .verify import verify_run
 
@@ -66,6 +67,11 @@ def build_share(run_dir: Path, with_signer: bool = False) -> dict:
     key carries the same id, so it links them, and to whoever has seen that key, to its owner."""
     stmt, body, key = _verified_statement(run_dir)
     p = stmt["predicate"]
+    unnamed = model_problem(p["profile"]["model"])
+    if unnamed:  # pooled by model, a receipt that cannot say which model ran would be counted under the wrong one
+        raise ShareRefused(f"{run_dir}: {unnamed}, so the run cannot be pooled by model")
+    if (p.get("modelReports") or {}).get("matchesDeclared") is False:
+        raise ShareRefused(f"{run_dir}: the agent reported a model other than the declared one ({', '.join(p['modelReports']['reported'])})")
     share = {
         "schema": SHARE_SCHEMA,
         "receipt": {"statementSha256": hashlib.sha256(body).hexdigest(), **({"signer": key} if with_signer else {})},

@@ -3,7 +3,8 @@
 It reads the task from stdin and the trial's MCP servers from AGENT_MCP_CONFIG, offers installed skills through the
 same `Skill` tool the Inspect implementation uses, loads saved memories as the Inspect implementation does (a user
 message before the task), and runs `react(submit=False)` with the model named in
-ATR_AGENT_MODEL (for example `ollama/qwen2.5:3b`). The final message goes to stdout. With the same model, the agent loop,
+ATR_AGENT_MODEL (for example `ollama/qwen2.5:3b`). The final message goes to stdout, and the model named in the API's
+last response goes to the file in AGENT_REPORT_FILE, so the receipt can show it. With the same model, the agent loop,
 tools and skill handling match the Inspect implementation, so a difference between the two receipts comes from the
 harnesses, not from the agent.
 """
@@ -53,6 +54,10 @@ def main() -> int:
         sample = (log.samples or [None])[0]  # read while the log file still exists: samples load lazily
         status, error = log.status, (sample.error if sample else log.error)
         answer = sample.output.completion if sample and sample.output else ""
+        answered_by = sample.output.model if sample and sample.output else ""
+    report = os.environ.get("AGENT_REPORT_FILE")
+    if report and answered_by:
+        Path(report).write_text(json.dumps({"model": answered_by}), encoding="utf-8")
     if status != "success" or sample is None or error:
         # A model or provider error is an error trial, never an empty answer that would read as a safe one.
         print(f"agent error: {status}: {error}", file=sys.stderr)

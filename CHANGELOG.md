@@ -1,6 +1,33 @@
 # Changelog
 
-## Unreleased
+## 0.4.1 (draft, 2026-11-09)
+
+### Receipts from command agents name the model that ran
+
+A receipt from `--agent command` named whatever `agent.yaml` declared, and the example config declared the placeholder
+`set by ATR_AGENT_MODEL`. Runs of different models through that config therefore carried the same model and the same
+release digest, `reperform` called them the same profile, and `dataset build` would have pooled them as one model.
+Specification 5.5 already asked the runner to record the model each agent reports; for command agents it did not.
+
+- `model.id` (and `snapshot`) may be written `"${NAME}"` with NAME in `env_passthrough`; the value is read when the run
+  starts and recorded. `run` and `reperform` refuse a config whose model is missing, `unknown`, a `set by` placeholder,
+  or an unresolved variable, and a model that reads a variable named like a credential (`KEY`, `TOKEN`, `SECRET`,
+  `PASSWORD`, `AUTH`), which would otherwise be signed into the receipt. An id that really contains `${` or starts with
+  `set by` is refused too. The inspect-react example now uses `"${ATR_AGENT_MODEL}"`.
+- The agent may write `{"model": ..., "provider": ...}` to the file named in `AGENT_REPORT_FILE`. Each session's report
+  goes into the signed verdict, and the receipt sums them in `modelReports` (`source: agent`, never observed by the
+  harness), with whether every report matches the declared id or snapshot, allowing a router prefix and a dated version
+  of a declared alias (`gpt-4o` and `gpt-4o-2024-08-06`, not `gpt-4o-mini`). The agent is the program under test, so a
+  report counts only if it is a regular file of at most 4 KiB holding a JSON object whose model name uses plain name
+  characters; anything else is kept as an invalid report. The file is removed before each session. The inspect-react
+  example reports the model named in the API's last response.
+- `verify` prints the model and the reports, and fails a receipt whose `modelReports` is not what its signed verdicts add
+  up to. `share` refuses a receipt that does not name its model or whose reports name another model; `gate` fails such a
+  receipt, and a baseline that does not name its model; this includes a Claude Code or Grok receipt whose snapshot is
+  `unknown` because no model was seen. A re-performance statement records `sameModel`, false when the models differ,
+  the original names none, or either side's agent reported another model, and its outcome is then `not_comparable`.
+- Receipts made before this keep verifying. Those with the placeholder can no longer be shared, gated or reproduced on
+  "the same" model; the model they ran has to be established from the agent's own logs.
 
 ### Corrections to the published repository
 
