@@ -11,7 +11,7 @@ from referencing import Registry, Resource
 
 _DIR = Path(__file__).parent / "schemas"
 _NAMES = ("profile.schema.json", "atomic.schema.json", "receipt-predicate.schema.json", "reperformance-predicate.schema.json",
-          "share.schema.json")
+          "share.schema.json", "boundary-probe.schema.json", "boundary-predicate.schema.json")
 
 
 @lru_cache(maxsize=1)
@@ -30,6 +30,14 @@ def _errors(schema_name: str, instance) -> list[str]:
 
 def atomic_errors(atomic: dict) -> list[str]:
     return _errors("atomic.schema.json", atomic)
+
+
+def boundary_probe_errors(probe: dict) -> list[str]:
+    return _errors("boundary-probe.schema.json", probe)
+
+
+def boundary_predicate_errors(predicate: dict) -> list[str]:
+    return _errors("boundary-predicate.schema.json", predicate)
 
 
 def predicate_errors(predicate: dict) -> list[str]:
