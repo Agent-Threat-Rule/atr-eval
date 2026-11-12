@@ -19,6 +19,7 @@ from .drivers import (
     needs_approval,
     saved_memory_text,
     snapshot_kind,
+    timed_out,
 )
 from .paths import HOME
 from .trial import WORKSPACE
@@ -134,8 +135,8 @@ class GrokDriver:
         try:
             proc = subprocess.run(cmd, cwd=ts.dir / WORKSPACE, env=_env(ts.dir / "grokhome"), stdin=subprocess.DEVNULL,
                                   capture_output=True, text=True, timeout=self.timeout, check=False)
-        except subprocess.TimeoutExpired:
-            return SessionResult(output="", error="timeout")
+        except subprocess.TimeoutExpired as e:
+            return timed_out(self._parse, e)
         return self._parse(proc.stdout, proc.stderr, proc.returncode)
 
     def _parse(self, stdout: str, stderr: str, code: int) -> SessionResult:
