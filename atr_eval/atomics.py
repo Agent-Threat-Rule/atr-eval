@@ -35,6 +35,10 @@ BENIGN_TEXT = {
     "user_prompt": "Thanks.",
 }
 
+# libyaml's safe loader when PyYAML was built with it: the same documents, about nine times faster, which matters once
+# a set names a few hundred files. tests/test_sets.py checks both loaders read every shipped atomic alike.
+_YAML_LOADER = getattr(yaml, "CSafeLoader", yaml.SafeLoader)
+
 _PLACEHOLDER = re.compile(r"\{\{\s*([a-z_]+)\s*\}\}")
 _ALNUM = string.ascii_letters + string.digits
 
@@ -54,7 +58,7 @@ def load_atomics(directory: Path = LIBRARY) -> list[Atomic]:
     out = []
     for f in sorted(Path(directory).glob("AT-[0-9][0-9][0-9][0-9]-*.yaml")):
         raw = f.read_bytes()
-        out.append(Atomic(path=f, data=yaml.safe_load(raw.decode("utf-8")), digest=hashlib.sha256(raw).hexdigest()))
+        out.append(Atomic(path=f, data=yaml.load(raw.decode("utf-8"), Loader=_YAML_LOADER), digest=hashlib.sha256(raw).hexdigest()))
     return out
 
 
