@@ -34,7 +34,7 @@ packages = ["atr_eval", "atr_eval.importers"]
 
 [tool.setuptools.package-data]
 "atr_eval.importers" = ["agentdojo_tools.json", "licences/*.txt"]
-atr_eval = ["schemas/*.json", "library/*.yaml", "library/*.md", "library/imported/*/*.yaml", "library/imported/*/*.md", "library/superseded/*/*.yaml", "library/superseded/*/*.md"]
+atr_eval = ["schemas/*.json", "library/*.yaml", "library/*.md", "library/sets/*.yaml", "library/sets/*.md", "library/imported/*/*.yaml", "library/imported/*/*.md", "library/superseded/*/*.yaml", "library/superseded/*/*.md"]
 
 [tool.coverage.run]
 source = ["atr_eval"]
