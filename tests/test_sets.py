@@ -11,7 +11,16 @@ from atr_eval import sets
 from atr_eval.atomics import LIBRARY, load_atomics
 from atr_eval.cli import main
 from atr_eval.profile import route
-from atr_eval.sets import PER_CELL, STANDARD, draw, entries_for, load_set, per_cell_of, set_names, version_label
+from atr_eval.sets import (
+    PER_CELL,
+    STANDARD,
+    draw,
+    entries_for,
+    load_set,
+    per_cell_of,
+    set_names,
+    version_label,
+)
 from atr_eval.sources import coverage_gap, source_families
 
 N_PER_CELL = 3  # METHOD 2.5
